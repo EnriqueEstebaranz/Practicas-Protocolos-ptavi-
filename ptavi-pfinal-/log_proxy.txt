@@ -1,0 +1,28 @@
+20200704174523 Starting...
+20200704174838 Received from 127.0.0.1:60784: REGISTER sip:claudia@ptavi.es:6001 SIP/2.0 Expires: 3600  
+20200704174838 Sent to 127.0.0.1:60784: SIP/2.0 401 Unauthorized WWW Authenticate: Digest nonce="48001972"  
+20200704174838 Received from 127.0.0.1:60784: REGISTER sip:claudia@ptavi.es:6001 SIP/2.0 Expires: 3600 Authorization: Digest response="f96a3802b9e5e5756533e71a8595ebc7"  
+20200704174838 Sent to 127.0.0.1:60784: SIP/2.0 200 OK  
+20200704174908 Received from 127.0.0.1:60788: REGISTER sip:pepe@ptavi.es:6002 SIP/2.0 Expires: 3600  
+20200704174908 Sent to 127.0.0.1:60788: SIP/2.0 401 Unauthorized WWW Authenticate: Digest nonce="11416402"  
+20200704174908 Received from 127.0.0.1:60788: REGISTER sip:pepe@ptavi.es:6002 SIP/2.0 Expires: 3600 Authorization: Digest response="135faeb26d10c4e13651d32994e37dad"  
+20200704174908 Sent to 127.0.0.1:60788: SIP/2.0 200 OK  
+20200704175421 Received from 127.0.0.1:52199: INVITE sip:enrique SIP/2.0 Content-Type: application/sdp  v=0 o=pepe@ptavi.es 127.0.0.1 s=misesion m=audio 23033 RTP  
+20200704175421 Error: SIP/2.0 404 User Not Found  
+20200704175530 Received from 127.0.0.1:49442: INVITE sip:enrique SIP/2.0 Content-Type: application/sdp  v=0 o=pepe@ptavi.es 127.0.0.1 s=misesion m=audio 23033 RTP  
+20200704175530 Error: SIP/2.0 404 User Not Found  
+20200704175557 Received from 127.0.0.1:49443: INVITE sip:pepe@petavi.es SIP/2.0 Content-Type: application/sdp  v=0 o=pepe@ptavi.es 127.0.0.1 s=misesion m=audio 23033 RTP  
+20200704175557 Error: SIP/2.0 404 User Not Found  
+20200704175637 Received from 127.0.0.1:51478: INVITE sip:claudia@petavi.es SIP/2.0 Content-Type: application/sdp  v=0 o=pepe@ptavi.es 127.0.0.1 s=misesion m=audio 23033 RTP  
+20200704175637 Error: SIP/2.0 404 User Not Found  
+20200705174233 Starting...
+20200705174344 Received from 127.0.0.1:50740: REGISTER sip:claudia@ptavi.es:6001 SIP/2.0 Expires: 3600  
+20200705174344 Sent to 127.0.0.1:50740: SIP/2.0 200 OK  
+20200705174446 Received from 127.0.0.1:55795: REGISTER sip:pepe@ptavi.es:6002 SIP/2.0 Expires: 3600  
+20200705174446 Sent to 127.0.0.1:55795: SIP/2.0 200 OK  
+20200705174518 Received from 127.0.0.1:55798: INVITE sip:claudia@ptavi.es SIP/2.0 Content-Type: application/sdp  v=0 o=pepe@ptavi.es 127.0.0.1 s=misesion m=audio 23033 RTP  
+20200705174518 Sent to 127.0.0.1:6001: INVITE sip:claudia@ptavi.es SIP/2.0 Content-Type: application/sdp Via: SIP/2.0/UDP 127.0.0.1:1234  v=0 o=pepe@ptavi.es 127.0.0.1 s=misesion m=audio 23033 RTP
+20200705174518 Received from 127.0.0.1:6001: SIP/2.0 100 Trying  SIP/2.0 180 Ringing  SIP/2.0 200 OK Content-Type: application/sdp Via: SIP/2.0/UDP 127.0.0.1:1234  v=0 o=claudia@ptavi.es 127.0.0.1 s=misesion m=audio 23032 RTP
+20200705174518 Sent to 127.0.0.1:6001: SIP/2.0 100 Trying  SIP/2.0 180 Ringing  SIP/2.0 200 OK Content-Type: application/sdp Via: SIP/2.0/UDP 127.0.0.1:1234  v=0 o=claudia@ptavi.es 127.0.0.1 s=misesion m=audio 23032 RTP
+20200705174518 Received from 127.0.0.1:55798: ACK sip:claudia@ptavi.es SIP/2.0  
+20200705174518 Sent to 127.0.0.1:6001: ACK sip:claudia@ptavi.es SIP/2.0 Via: SIP/2.0/UDP 127.0.0.1:1234  

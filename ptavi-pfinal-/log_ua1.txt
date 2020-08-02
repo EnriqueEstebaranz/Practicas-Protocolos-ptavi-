@@ -1,0 +1,16 @@
+20200704174628 Starting...
+20200704174838 Starting...
+20200704174838 Sent to 127.0.0.1:1234: REGISTER sip:claudia@ptavi.es:6001 SIP/2.0 Expires: 3600  
+20200704174838 Received from 127.0.0.1:1234: SIP/2.0 401 Unauthorized WWW Authenticate: Digest nonce="48001972"  
+20200704174838 Sent to 127.0.0.1:1234: REGISTER sip:claudia@ptavi.es:6001 SIP/2.0 Expires: 3600 Authorization: Digest response="f96a3802b9e5e5756533e71a8595ebc7"  
+20200704174838 Received from 127.0.0.1:1234: SIP/2.0 200 OK  
+20200704174838 Finishing.
+20200705174259 Starting...
+20200705174344 Starting...
+20200705174344 Sent to 127.0.0.1:1234: REGISTER sip:claudia@ptavi.es:6001 SIP/2.0 Expires: 3600  
+20200705174344 Received from 127.0.0.1:1234: SIP/2.0 200 OK  
+20200705174344 Finishing.
+20200705174518 Received from 127.0.0.1:1234: INVITE sip:claudia@ptavi.es SIP/2.0 Content-Type: application/sdp Via: SIP/2.0/UDP 127.0.0.1:1234  v=0 o=pepe@ptavi.es 127.0.0.1 s=misesion m=audio 23033 RTP
+20200705174518 Sent to 127.0.0.1:55799: SIP/2.0 100 Trying  SIP/2.0 180 Ringing  SIP/2.0 200 OK Content-Type: application/sdp  v=0 o=claudia@ptavi.es 127.0.0.1 s=misesion m=audio 23032 RTP  
+20200705174518 Received from 127.0.0.1:1234: ACK sip:claudia@ptavi.es SIP/2.0 Via: SIP/2.0/UDP 127.0.0.1:1234  
+20200705174518 Sent to 127.0.0.1:23033: cvlc rtp://@127.0.0.1:23033mp32rtp -i 127.0.0.1 -p 23033 < ./cancion.mp3

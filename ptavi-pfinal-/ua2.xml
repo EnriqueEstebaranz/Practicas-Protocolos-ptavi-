@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+  <account username="chocapicduo@ptavi.es" passwd="PtaviFUENLABRADA"/>
+  <uaserver ip="127.0.0.1" puerto="5556"/>
+  <rtpaudio puerto="4005"/>
+  <regproxy ip="127.0.0.1" puerto="5005"/>
+  <log path="log2.txt"/>
+  <audio path="cancion.mp3"/>
+</config>
